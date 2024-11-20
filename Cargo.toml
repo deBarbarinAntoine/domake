@@ -1,0 +1,10 @@
+[package]
+name = "domake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console = "0.15.8"
+regex = "1.11.1"
+log = "0.4.22"
+chrono = "0.4.38"

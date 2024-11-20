@@ -1,0 +1,11 @@
+include .envrc
+
+[command]
+# execute a command
+echo "Hello World!"
+echo "Hey there!"
+
+[env] command
+# a command that require the one named 'command'
+@echo "Hello ${NAME}"
+@echo "User: ${USER}"
